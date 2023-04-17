@@ -54,6 +54,10 @@ function Table() {
       selector: (row) => row.address.city,
       sortable: true,
     },
+    {
+      name: "Institute",
+      selector: (row) => row.university,
+    }
   ];
 
   useEffect(() => {
